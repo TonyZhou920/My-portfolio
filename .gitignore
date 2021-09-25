@@ -74,3 +74,5 @@ typings/
 
 # FuseBox cache
 .fusebox/
+# Repo doesn't store or track node_modules folder.
+/node_modules

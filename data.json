@@ -1,0 +1,48 @@
+{"projects": [
+   {
+     "id":0,
+     "project_name": "Treehouse-project-1-Random-Quote-Generator-Project",
+     "description": "A random quote generator with a color switch timer-control ",
+     "technologies": ["Javascript", "HTML" ,"CSS"],
+     "live_link": "https://noteventryin.github.io/Treehouse-project-1-Random-Quote-Generator-Project/",
+     "github_link": "https://github.com/Noteventryin/Treehouse-project-1-Random-Quote-Generator-Project",
+     "image_urls": ["/static/images/p1-main.jpg","/static/images/p11.jpg","/static/images/p12.jpg","/static/images/p13.jpg"]
+   },
+   {
+    "id":1,
+    "project_name": "Treehouse-project-2-Data-Pagination-and-Filtering",
+    "description": "Data Pagination and Filtering app which display several pages of student data. User can easily search and view the student's profile.",
+    "technologies": ["Javascript", "HTML" ,"CSS"],
+    "live_link": "https://noteventryin.github.io/Treehouse-project-2-Data-Pagination-and-Filtering/",
+    "github_link": "https://github.com/Noteventryin/Treehouse-project-2-Data-Pagination-and-Filtering",
+    "image_urls": ["/static/images/p2-main.jpg","/static/images/p21.jpg","/static/images/p22.jpg","/static/images/p23.jpg"]
+  },
+  {
+    "id":2,
+    "project_name": "Treehouse-project-3-Interactive-Form",
+    "description": "Interactive Form which includes form validation and accessibility applied",
+    "technologies": ["Javascript", "HTML" ,"CSS", "Accessibility"],
+    "live_link": "https://noteventryin.github.io/Treehouse-project-3-Interactive-Form/",
+    "github_link": "https://github.com/Noteventryin/Treehouse-project-3-Interactive-Form",
+    "image_urls": ["/static/images/p3-main.jpg","/static/images/p31.jpg","/static/images/p32.jpg","/static/images/p33.jpg"]
+  },
+  {
+    "id":3,
+    "project_name": "Treehouse-project-4-OOP-Game-Show-App",
+    "description": "This app is a phrases guessing game which selects a random and hidden phrase",
+    "technologies": ["Javascript", "HTML" ,"CSS", "class constructor"],
+    "live_link": "https://noteventryin.github.io/Treehouse-project-4-OOP-Game-Show-App/",
+    "github_link": "https://github.com/Noteventryin/Treehouse-project-4-OOP-Game-Show-App",
+    "image_urls": ["/static/images/p4-main.jpg","/static/images/p41.jpg","/static/images/p42.jpg","/static/images/p43.jpg"]
+  },
+  {
+    "id":4,
+    "project_name": "Treehouse-project-5-Public-API-Requests",
+    "description": "An employee infomation webpage that request from a third-party API.",
+    "technologies": ["Javascript", "HTML" ,"CSS", "Fetch API", "Public API"],
+    "live_link": "https://noteventryin.github.io/Treehouse-project-5-Public-API-Requests/",
+    "github_link": "https://github.com/Noteventryin/Treehouse-project-5-Public-API-Requests",
+    "image_urls": ["/static/images/p5-main.jpg","/static/images/p51.jpg","/static/images/p52.jpg","/static/images/p53.jpg"]
+  }
+ ]
+}
