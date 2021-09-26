@@ -7,6 +7,9 @@
     "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "engines": {
+    "node":"14.17.5"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Noteventryin/Treehouse-project-6-Static-Node.js-and-Express-Site.git"

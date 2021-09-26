@@ -1,0 +1,20 @@
+extends layout.pug
+
+block content
+  
+   article    
+        .inner-wrapper.box
+            h1 Oops, something went wrong.  
+            img.error(src='Error-image.png', alt='Error page')
+            br
+            button.btn-link(onclick="showErrorInfo()") More Info 
+            div.errorInfo(style='display:none')
+               h2= `${err.status}: ${err.message}`
+               p #{err.stack}
+                
+            h3 Click the button below to go back to the Home page. 
+
+    nav.nav.error
+        a.underline(href='/')
+            span &larr;
+            |  Back to the Home page
