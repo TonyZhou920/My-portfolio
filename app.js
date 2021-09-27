@@ -59,6 +59,6 @@ app.use((err, req, res, next) => {
 //Deploy for Heroku set up PORT.
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, ()=> {
-    console.log("the application is up and running on local host port: ${PORT}")
+    console.log(`the application is up and running on local host port: ${PORT}`)
 }); 
 
