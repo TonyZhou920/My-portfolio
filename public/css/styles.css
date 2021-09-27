@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,900&display=swap');
 /*
   Main styles
 */
@@ -13,14 +13,15 @@ body {
   min-width: 100%;
   height: 100%;
   min-height: 100%;
+  background: rgb(86, 150, 223);
 }
 
 body {
   position: relative;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: 'Nunito', Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   line-height: 1.5;
-  color: #0a0a0a;
+  color: #0a0a0adc;
   background: #fefefe;
   background: #000;
   transform: translateX(0px);
@@ -36,7 +37,7 @@ h1,h2,h3,h4,h5,p{
 }
 
 h5{
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Nunito', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   letter-spacing: 2.5px;
   -webkit-text-transform: uppercase;
   text-transform: uppercase;
@@ -98,7 +99,7 @@ a {
 }
 
 .box li {
-  font-size: 13px;
+  font-size: 15px;
 }
 
 
@@ -114,7 +115,7 @@ nav {
 nav a {
   width: 100%;
   vertical-align: middle;
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Nunito', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 600;
   font-size: 13px;
   letter-spacing: 2.5px;
@@ -137,7 +138,7 @@ nav a span {
   height: 100%;
   min-height: 100%;
   padding: 20px;
-  background: #000;
+  background: rgb(32, 13, 77);
 }
 
 .sidebar-info-box {
@@ -201,7 +202,7 @@ nav a span {
   width: 20px;
   height: 16px;
   border: none;
-  background: #0a0a0a;
+  background: #cfcc21;
   margin-top: 3px;
   margin-right: 10px;
   border-top: 2px solid #fefefe;
@@ -217,8 +218,92 @@ nav a span {
   height: 2px;
   background: #fefefe;
 }
+/*
+  link underline animation from Michelle Barker https://codepen.io/michellebarker/pen/MWJajOb
+*/
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
 
 
+/* Underline styles */
+a {
+	display: block;
+	position: relative;
+	padding: 0.2em 0;
+}
+/* Fade in */
+a::after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 0.1em;
+	background-color: hotpink;
+	opacity: 0;
+	transition: opacity 300ms, transform 300ms;
+}
+
+a:hover::after,
+a:focus::after {
+	opacity: 1;
+	transform: translate3d(0, 0.2em, 0);
+}
+
+/* Fade in */
+a::after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 0.1em;
+	background-color: hotpink;
+	opacity: 0;
+	transition: opacity 300ms, transform 300ms;
+}
+
+a:hover::before {
+	opacity: 1;
+	transform: translate3d(0, 0.2em, 0);
+}
+
+/* Slide in */
+li:nth-child(2) a {
+	overflow: hidden;
+}
+
+li:nth-child(2) a::before {
+	opacity: 1;
+	transform: translate3d(-100%, 0, 0);
+}
+
+li:nth-child(2) a:hover::before,
+li:nth-child(2) a:focus::after{
+	transform: translate3d(0, 0, 0);
+}
+
+
+/* Scale from center */
+li:nth-child(3) a::before {
+	opacity: 1;
+	transform: scale(0);
+	transform-origin: center;
+}
+
+li:nth-child(3) a:hover::before,
+li:nth-child(3) a:focus::after{
+	transform: scale(1);
+}
 /*
   Home page styles
 */
@@ -242,7 +327,7 @@ nav a span {
 }
 
 .projects-box h5 {
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Nunito', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 500;
   font-size: 13px;
   letter-spacing: 2.25px;
@@ -285,7 +370,7 @@ nav a span {
   max-width: 1065px;
   margin-bottom: 15px;
   border: 4px solid #fff;
-  box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
+  box-shadow: 0 0 0 1px rgba(218, 164, 103, 0.2);
 }
 
 .btn-link {

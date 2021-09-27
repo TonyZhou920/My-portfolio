@@ -2,7 +2,9 @@
 const express = require('express');
 const app = express();
 const path = require("path");
+const newError = require("http-errors");
 const { projects } = require('./data.json');
+
 app.use(express.json());
 
 //Set up view engine.
@@ -29,13 +31,13 @@ app.get('/project/:id', (req, res, next) => {
     if (project) {
         res.render('project', {project});
     } else {
-        next(createError(404));
+        next(newError(404));
     }
 });
 
 // Handle 404 Errors
-app.use((req, res) => {
-    next(createError(404))
+app.use((req, res, next) => {
+    next(newError(404));
 });
 
 //Global error handler
@@ -44,18 +46,19 @@ app.use((err, req, res, next) => {
     res.locals.error = req.app.get('env') === 'development' ? err: {};
     if(err.status === 404) {
         res.status(err.statusCode);
-        // err.message = 'Oops, page not found. Looks like that route does not exist.';
+        err.message = 'Oops, page not found. Looks like that route does not exist.';
         console.log(`${err.statusCode}: ${err.message}`);
         res.render('page-not-found', {err});
     }else {
         res.status(err.statusCode || 500);
-        // err.message ='Looks like there might be a problem with server.'
+        err.message ='Looks like there might be a problem with server.'
         console.log(`${err.statusCode}: ${err.message}`);
         res.render('error',{err});
     }
 });
-
-app.listen(3000, ()=> {
-    console.log("the application is up and running on local host 3000")
+//Deploy for Heroku set up PORT.
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, ()=> {
+    console.log("the application is up and running on local host port: ${PORT}")
 }); 
 

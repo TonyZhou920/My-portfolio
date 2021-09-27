@@ -1,3 +1,20 @@
 extends layout.pug
 
 block content
+
+    article    
+        .inner-wrapper.box
+            h1 Oops! Page not found. 
+            img.error(src='https://spicymage.s3.us-east-2.amazonaws.com/rsz_error-image(1).png', alt='Page not found error')
+            br
+            button(onclick="Error()") More Information about this error 
+            div.errorInfo(style='display:none')
+               h2= `${err.status}: ${err.message}`
+               p #{err.stack}
+               
+            h3 Click the button below to go back to the Home page. 
+
+    nav.nav.error
+        a.underline(href='/')
+            span &larr;
+            |  Back to the Home page

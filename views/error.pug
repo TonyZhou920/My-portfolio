@@ -2,12 +2,12 @@ extends layout.pug
 
 block content
   
-   article    
+    article    
         .inner-wrapper.box
             h1 Oops, something went wrong.  
-            img.error(src='Error-image.png', alt='Error page')
+            img.error(src='https://spicymage.s3.us-east-2.amazonaws.com/Error-pic.png', alt='Error page')
             br
-            button.btn-link(onclick="showErrorInfo()") More Info 
+            button.btn-link(onclick="Error()") More Information about this error 
             div.errorInfo(style='display:none')
                h2= `${err.status}: ${err.message}`
                p #{err.stack}
