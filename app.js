@@ -5,6 +5,7 @@ const path = require("path");
 const newError = require("http-errors");
 const { projects } = require('./data.json');
 
+
 app.use(express.json());
 
 //Set up view engine.
@@ -33,6 +34,13 @@ app.get('/project/:id', (req, res, next) => {
     } else {
         next(newError(404));
     }
+});
+//Get '/error' route to show 500 error.
+app.get('/error', (req, res, next) => {
+    const err = new Error();
+    err.message = `Custom 500 error thrown`
+    err.status = 500;
+    throw err;
 });
 
 // Handle 404 Errors
