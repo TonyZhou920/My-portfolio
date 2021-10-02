@@ -15,7 +15,7 @@
     "technologies": ["Javascript", "HTML" ,"CSS"],
     "live_link": "https://noteventryin.github.io/Treehouse-project-2-Data-Pagination-and-Filtering/",
     "github_link": "https://github.com/Noteventryin/Treehouse-project-2-Data-Pagination-and-Filtering",
-    "image_urls": ["/static/images/p2-main.jpg","/static/images/p21.jpg","/static/images/p22.jpg","/static/images/p23.jpg"]
+    "image_urls": ["/static/images/p2-main.jpg","/static/images/p21.jpg","/static/images/p22.jpg"]
   },
   {
     "id":2,
