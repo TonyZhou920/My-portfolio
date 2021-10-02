@@ -10,9 +10,11 @@ Using Heroku to deploy this portfolio app, in order to use Heroku CLI ,
 
 #2. Specified with engines key in 'Package.json' file to tell Heroku which version of Node.js to use when running this app.
 
-"engines": {
+"engines": 
+{
 
 "node": "14.17.5"
+
 }
 
 #3. Must test locally before Git push heroku master .
