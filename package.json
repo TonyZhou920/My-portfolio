@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Noteventryin/Treehouse-project-6-Static-Node.js-and-Express-Site.git"
+    "url": "git+https://github.com/tonyzhou920/Treehouse-project-6-Static-Node.js-and-Express-Site.git"
   },
   "keywords": [
     "npm",
@@ -21,9 +21,9 @@
   "author": "Zhikun Zhou",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Noteventryin/Treehouse-project-6-Static-Node.js-and-Express-Site/issues"
+    "url": "https://github.com/tonyzhou920/Treehouse-project-6-Static-Node.js-and-Express-Site/issues"
   },
-  "homepage": "https://github.com/Noteventryin/Treehouse-project-6-Static-Node.js-and-Express-Site#readme",
+  "homepage": "https://github.com/tonyzhou920/Treehouse-project-6-Static-Node.js-and-Express-Site#readme",
   "dependencies": {
     "express": "^4.17.1",
     "morgan": "^1.10.0",
