@@ -43,6 +43,32 @@
     "live_link": "https://tonyzhou920.github.io/Treehouse-project-5-Public-API-Requests/",
     "github_link": "https://github.com/tonyzhou920/Treehouse-project-5-Public-API-Requests",
     "image_urls": ["/static/images/p5-main.jpg","/static/images/p51.jpg","/static/images/p52.jpg","/static/images/p53.jpg"]
+  },
+  {
+    "id":5,
+    "project_name": "flash-card-game",
+    "description": "flash-card-game developed using react",
+    "technologies": ["Javascript", "HTML" ,"CSS", "React"],
+    "live_link": "https://flash-card-game.herokuapp.com/hello",
+    "github_link": "https://github.com/TonyZhou920/Flash-card-game",
+    "image_urls": ["/static/images/p6-main.png","/static/images/p61.png","/static/images/p62.png","/static/images/p63.png","/static/images/p64.png"]
+  },
+  {
+    "id":6,
+    "project_name": "React-Gallery-App",
+    "description": "An react photo app that request from a third-party API.",
+    "technologies": ["Javascript", "HTML" ,"CSS", "Flickr API"],
+    "live_link": "https://626c540d10b08d0e557b0a70--silly-syrniki-2d2850.netlify.app/",
+    "github_link": "https://github.com/TonyZhou920/React-Gallery-App",
+    "image_urls": ["/static/images/p7-main.png","/static/images/p71.png","/static/images/p72.png","/static/images/p73.png","/static/images/p74.png","/static/images/p75.png"]
+  },
+  {
+    "id":7,
+    "project_name": "Courses-Management-App",
+    "description": "An full stack react app with React handling the front end and express handling the back end. This is a course management app where users can view all the courses or manage the courses.",
+    "technologies": ["Javascript", "HTML" ,"CSS", "Express", "React", "Sequelize"],
+    "github_link": "https://github.com/TonyZhou920/Full-Stack-App-with-React-and-REST-API",
+    "image_urls": ["/static/images/p8-main.png","/static/images/p81.png","/static/images/p82.png","/static/images/p83.png","/static/images/p84.png","/static/images/p85.png"]
   }
  ]
 }
