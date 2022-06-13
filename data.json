@@ -22,7 +22,7 @@
     "project_name": "Treehouse-project-3-Interactive-Form",
     "description": "Interactive Form which includes form validation and accessibility applied",
     "technologies": ["Javascript", "HTML" ,"CSS", "Accessibility"],
-    "live_link": "https://tonyzhou920.github.io/Treehouse-project-3-Interactive-Form/",
+    "live_link": "https://tonyzhou920.github.io/Interactive-Form/",
     "github_link": "https://github.com/tonyzhou920/Treehouse-project-3-Interactive-Form",
     "image_urls": ["/static/images/p3-main.jpg","/static/images/p31.jpg","/static/images/p32.jpg","/static/images/p33.jpg"]
   },
